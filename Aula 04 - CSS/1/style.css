@@ -1,0 +1,22 @@
+button:hover {
+background-color: rgb(216, 70, 29);
+color: white;
+}
+h1:hover {
+    color:rgb(172, 116, 223);
+}
+
+div :nth-child(5n) {
+    color: rgb(204, 22, 22);
+}
+
+li::marker {
+    color:rgb(67, 150, 99);
+}
+
+input::placeholder {
+    color: blueviolet;
+}
+p::before {
+    content: "🌐";
+}
