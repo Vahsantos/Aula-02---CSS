@@ -1,0 +1,14 @@
+li{
+    color:green;
+}
+
+li.selecionado {
+color:blue;
+}
+ h1 {
+    color:green;
+}
+
+p.selecionado {
+  color:red;
+}
