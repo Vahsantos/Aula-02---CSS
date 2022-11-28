@@ -1,0 +1,17 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif; 
+    
+}
+
+p {
+    color: rgb(54, 127, 196);
+}
+.seg_p {
+    color: rgb(194, 44, 44);
+}
+#p_verde {
+    color:rgb(58, 202, 77)
+}
+#p_roxo {
+    color: rgb(128, 50, 173);
+}
