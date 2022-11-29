@@ -1,0 +1,43 @@
+.corpo {
+    height: 64px;
+    width: 100%;
+    background-color: rgb(225, 206, 206);
+
+}
+
+
+
+.pai {
+    width: 220px;
+    height: 220px;
+    background-color: aqua;
+    position: fixed;
+}
+
+.interno {
+    width: 164px;
+    height: 164px;
+    background-color: darkmagenta;
+    position: relative;
+    top: 32px;
+}
+
+.posicao {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(189, 53, 53);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+
+/* 
+ h1 {
+    float: left;
+  }
+
+  h2 {
+    float:right;
+  } */
