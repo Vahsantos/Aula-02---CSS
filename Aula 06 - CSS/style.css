@@ -1,0 +1,24 @@
+
+.cor_de_fundo {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(176, 168, 230);
+    /* background-image: linear-gradient(#bb9fe0, #8cd1a6); */
+
+    /* background-image: url(https://bemach1.com.br/wp-content/uploads/2022/09/Logo-Mach.svg) ;
+    background-repeat: no-repeat; */
+    /* esqu- top
+    background-position: center ; */
+
+
+    background-image: url(https://1.bp.blogspot.com/-Wq2lcq9_a4I/Tc2lLWOkNVI/AAAAAAAABVM/Wao0rm-vWe4/s1600/gatinho-5755.jpg);
+    background-size: cover;
+  
+}
+
+.imagem_com_div {
+    height: 400px;
+    width: 300px;
+    background-color:aqua;
+    overflow:hidden;
+}
