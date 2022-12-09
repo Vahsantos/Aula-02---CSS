@@ -1,0 +1,11 @@
+.principal {
+
+    border:5px;
+}
+div {
+    height: 20px;
+    border-radius:20px;
+    padding: 5px;
+    position: 5px 5px 10px 10px ;
+    
+}

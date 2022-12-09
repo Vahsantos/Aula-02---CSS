@@ -1,0 +1,63 @@
+/*input {type="radio"} {
+    appeareance: none;
+    border: 2px solid rgb(210, 210, 210) ;
+    border-radios: 50%;
+
+}
+input{type="radio": checked {
+    border:solid  2px
+
+    */
+:root {
+    --color-placeholder: #cccccc;
+    --color-disabled: #dfdfdf;
+    --color-text
+}
+
+/* .form_text */
+
+input[type="radio"]:checkend {
+    background-color: red;
+    box-shadow: inset 0px 0px 0px 6px white;
+}
+
+
+a {
+    color: red;
+}
+
+
+input:disable {
+    background-color: var(--color-disabled);
+    cursor: not-allowed;
+}
+
+
+input:disabled::placeholder {
+    color: var (--color-disabled);
+}
+
+input:focus-visible {
+
+    outline: none;
+}
+
+input:focus-visible {
+    border-color: green;
+    /*outline:none;*/
+}
+
+/*
+    display: grid;
+    grid-template-columns: 24px max-content;
+    align-items: center;
+    float: left;
+    margin-bottom: 15px;
+
+
+    /* color arrumae a class nos inputs de html */
+/* outro form */
+/* .botton_line {
+    border-radios: 24px;
+   
+} */
