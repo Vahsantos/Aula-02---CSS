@@ -1,0 +1,21 @@
+.navegacao {
+    display: flex;
+    gap: 32px;
+    background-color: beige;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+.navegacao-item {
+    background-color: rgb(165, 165, 197);
+}
+
+.navegacao-item--link {
+padding: 8px;
+
+}
+
+.navegacao-item--desabilitado {
+    color: antiquewhite;
+    background-color: blanchedalmond;
+    cursor: not-allowed;
+}

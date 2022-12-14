@@ -1,0 +1,33 @@
+button {
+    padding: 8px 24 px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'La Belle Aurore', cursive;
+
+
+}
+
+button.btn_pequeno {
+    padding: 4px 8px;
+}
+
+button.btn_primario {
+    background-color: var(  --backgroud-btn-primario);
+    color: var(--font-color-btn-branco);
+
+}
+
+
+
+button.btn_perigo {
+    background-color: var(--background-btn-perigo);
+    color: var(--font-color-btn-branco);
+}
+
+button.btn-bullet {
+    border-radius: var(--tipo-btn-bullet);
+}
+
+input_bullet {
+    
+}

@@ -1,0 +1,17 @@
+
+/*arquivos de fontes*/
+@import url("fontes.css");
+
+/*arquivos de variaveis */
+@import url("variaveis.css");
+
+/*componetes*/
+
+/*botaão*/
+@import url("botao.css");
+
+@import url("nav.css");
+
+body {
+    margin:0%
+}
