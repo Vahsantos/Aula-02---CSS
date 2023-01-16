@@ -8,66 +8,341 @@
     <meta name="author" content="valeria">
     <meta name="description" content="rede social">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 991px)">
+    <link rel="stylesheet" href="styles/tablet.css" media="screen and (max-width: 1199px) and (min-width: 992px)">
 </head>
 
 <body>
-    <div class="all">
+    <div class="topo row">
+        <div class="logo col-lg-5">
 
-        <div class="topo row">
-            <div class="logo col-lg-5">
+            <img src="asserts/MusicClub.svg" alt="pesquisa" />
 
-                <img src="asserts/MusicClub.svg" alt="pesquisa" />
+        </div>
 
+        <div class="pesquisa col-lg-4">
+            <input class="search" type="text" placeholder="Buscar...">
+            <div class="col-lg-1">
+                <button class="btn">
+                    <img src="asserts/SearchIcon.svg" alt="pesquisa" />
+                </button>
             </div>
+        </div>
 
-            <div class="pesquisa col-lg-4">
-                <input class="search" type="text" placeholder="Buscar...">
-                <div class="col-lg-1">
-                    <button class="btn"> 
-                        <img src="asserts/SearchIcon.svg" alt="pesquisa" />
-                    </button>
+        <div class="botoes col-lg-3">
+
+            <button class="btn"><img src="asserts/MessagesIcon.svg" alt="message" /></button>
+            <button class="btn"><img src="asserts/SettingsIcon.svg" alt="settings" /></button>
+            <button class="btn">
+                <img src="asserts/NotificationIcon.svg" alt="notification" />
+                <span class="notification">
+            </button>
+            <button class="btn photo"><img src="asserts/varelia.jpg" alt="pesquisa" /></button>
+        </div>
+    </div>
+
+    <div class="principal row">
+
+        <div class="usuario">
+            <div class="banner">
+
+                <img src="" alt="" srcset="">
+
+                <div class="profile">
+                    <img src="" alt="" srcset="">
                 </div>
             </div>
 
-            <div class="botoes col-lg-3">
+            <div class="information">
+                <h3 class="name">Valéria Assuncao dos santos</h3>
 
-                <button class="btn"><img src="asserts/MessagesIcon.svg" alt="message" /></button>
-                <button class="btn"><img src="asserts/SettingsIcon.svg" alt="settings" /></button>
-                <button class="btn">
+                <h6 class="job">web developer, cantora, empresaria e the sims player...</h6>
+
+                <p class="description">Developer á 5 anos, mulher mais bem colocada, proprietaria da valerystorys
+                </p>
+            </div>
+            <div class="analytics">
+                <div class="analytics-followes">
+                    <h1>324M</h1>
+                    <h2>Seguidores</h2>
+                </div>
+
+                <div class="analytics-post">
+                    <h1>325k</h1>
+                    <h2>Posts</h2>
+                </div>
+            </div>
+            <hr />
+            <div class="tabs">
+
+                <div class="tab active"><img src="asserts/feed.svg"> Feed
+
+                </div>
+                <div class="tab"><img src="asserts/conexões.svg">Conexões
+
+                </div>
+                <div class="tab"><img src="asserts/ultimas.svg">Últimos noticias
+
+                </div>
+                <div class="tab"><img src="asserts/eventos.svg">Eventos
+
+                </div>
+                <div class="tab"><img src="asserts/config.svg">Configurações
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="feed">
+            <div class="story">
+                <div class="card">
                     <img src="asserts/NotificationIcon.svg" alt="notification" />
-                    <span class="notification">
-                </button>
-                <button class="btn photo"><img src="asserts/varelia.jpg" alt="pesquisa" /></button>
+                    <span>Novo Store</span>
+                </div>
+                <div class="card">
+                    <img class="fullImage" src="asserts/amy.jpg" alt="notification" />
+
+                </div>
+                <div class="card">
+                    <img class="fullImage" src="asserts/nina.jpg" alt="notification" />
+
+                </div>
+                <div class="card">
+                    <img class="fullImage" src="asserts/frank.webp" alt="notification" />
+
+                </div>
+            </div>
+
+            <div class="describe">
+                <div class="photo-min">
+                    <img src="asserts/varelia.jpg" alt="pesquisa" />
+                </div>
+                <div class="text">
+                    <div>
+                        <textarea class="writeThink" name="think" id="think" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="flex space-beetween">
+                        <div class="flex">
+                            <span>Incluir</span>
+                            <div class="btnPost w-60">Foto</div>
+                            <div class="btnPost w-60">Video</div>
+                            <div class="btnPost w-60">Evento</div>
+                        </div>
+                        <div>
+                            <div class="btnLarge">Postar</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="others">
+                <div class="post">
+                    <div class="post-profile">
+                        <div class="m-10 flex">
+
+                            <div class="m-10 photo-min">
+                                <img src="asserts/nina.jpg" alt="pesquisa" />
+                            </div>
+
+                            <div class="flex column">
+                                <span class="flex center">
+                                    <h2 class="bold">Nina Simone</h2>
+                                    <span class="m-10 subtitle">- Há 4 horas</span>
+                                </span>
+                                <div class="subtitle">Cantora e compositora</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="m-10 post-body">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                        Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
+                        words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
+                        classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32
+                        and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+                        written in 45 BC. This book is a
+                    </div>
+                    <div class="post-actons">
+                        <div class="m-10 flex space-beetween">
+                            <div class="flex">
+                                <div class="btnPost">Gostei</div>
+                                <div class="btnPost">Compartilhar</div>
+                            </div>
+                            <div class="btnPost-tansparent">30 Comentarios</div>
+                        </div>
+                        <hr>
+                        <div class="m-10 flex center">
+
+                            <div class="m-10 photo-min">
+                                <img src="asserts/varelia.jpg" alt="pesquisa" />
+                            </div>
+
+                            <input class="comment" placeholder="Comente sobre isso...">
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-profile">
+                        <div class="m-10 flex">
+
+                            <div class="m-10 photo-min">
+                                <img src="asserts/frank.webp" alt="pesquisa" />
+                            </div>
+
+                            <div class="flex column">
+                                <span class="flex center">
+                                    <h2 class="bold">Frank Sinatra</h2>
+                                    <span class="m-10 subtitle">- Há 6 horas</span>
+                                </span>
+                                <div class="subtitle">Cantora e ator</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="m-10 post-body">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                        Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
+                        words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
+                        classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32
+                        and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+                        written in 45 BC. This book is a
+                    </div>
+                    <div class="post-actons">
+                        <div class="m-10 flex space-beetween">
+                            <div class="flex">
+                                <div class="btnPost">Gostei</div>
+                                <div class="btnPost">Compartilhar</div>
+                            </div>
+                            <div class="btnPost-tansparent">30 Comentarios</div>
+                        </div>
+                        <hr>
+                        <div class="m-10 flex center">
+
+                            <div class="m-10 photo-min">
+                                <img src="asserts/varelia.jpg" alt="pesquisa" />
+                            </div>
+
+                            <input class="comment" placeholder="Comente sobre isso...">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div class="semelhantes">
+            <div class="all">
+                <h2 class="parecidos">Parecidos com você</h2>
 
 
+                <div class="tab2">
+                    <div class="foto">
+                        <img src="asserts/nina.jpg">
+                    </div>
 
+                    <div class="nome">
+                        <h3>Nina simone</h3>
+                        <p class="color">Cantora e compositora</p>
+                    </div>
 
+                    <div class="follow">
+                        <img src="asserts/seguir.svg">
+                    </div>
+                </div>
 
+                <div class="tab2">
+                    <div class="foto">
+                        <img src="asserts/frank.webp">
+                    </div>
 
+                    <div class="nome">
+                        <h3>Frank Sinatra</h3>
+                        <p class="color">Cantor e ator</p>
+                    </div>
 
-        <div class="principal row">
+                    <div class="follow">
+                        <img src="asserts/seguir.svg">
+                    </div>
+                </div>
 
-            <div class="usuario col-lg-4">
+                <div class="tab2">
+                    <div class="foto">
+                        <img src="asserts/nina.jpg">
+                    </div>
+
+                    <div class="nome">
+                        <h3>Nina simone</h3>
+                        <p class="color">Cantora e compositora</p>
+                    </div>
+
+                    <div class="follow">
+                        <img src="asserts/seguir.svg">
+                    </div>
+                </div>
+
+                <div class="tab2">
+                    <div class="foto">
+                        <img src="asserts/ella.jpg">
+                    </div>
+
+                    <div class="nome">
+                        <h3>Ella Fitzgerald</h3>
+                        <p class="color">Cantora e compositora</p>
+                    </div>
+
+                    <div class="follow">
+                        <img src="asserts/seguir.svg">
+                    </div>
+                </div>
+
+                <div class="tab2">
+                    <div class="foto">
+                        <img src="asserts/louis.jpg">
+                    </div>
+
+                    <div class="nome">
+                        <h3>Louis armstrong</h3>
+                        <p class="color">Músico e vocalista</p>
+                    </div>
+
+                    <div class="follow">
+                        <img src="asserts/seguir.svg">
+                    </div>
+                </div>
+
+                <div class="tab2">
+                    <div class="foto">
+                        <img src="asserts/amy.jpg">
+                    </div>
+
+                    <div class="nome">
+                        <h3>Amy Winehouse</h3>
+                        <p class="color">Cantora e compositora</p>
+                    </div>
+
+                    <div class="follow">
+                        <img src="asserts/seguir.svg">
+                    </div>
+                </div>
+
+                <div class="more">Ver mais...</div>
 
             </div>
 
-            <div class="feed col-lg-5">
+            <div class="em_alta">
+                <h2>Em Alta</h2>
 
-            </div>
-
-            <div class="semelhantes col-lg-3">
-
+                <div class="alta">
+                    <h4 style="font-weight: bold;">Madonna Rasga elogios a Kendrick Lamar e diz que gostaria de
+                        colaborar com rapper</h4>
+                    <span>Há 2 horas</span>
+                </div>
             </div>
         </div>
-
-
-
-
-
-
     </div>
 </body>
 

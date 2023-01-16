@@ -1,0 +1,9 @@
+.usuario,
+.semelhantes {
+    display: none !important;
+}
+
+.feed {
+    grid-column: span 12;
+    margin: 20px;
+}

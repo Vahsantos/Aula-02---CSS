@@ -2,10 +2,19 @@
 @import url("normalize.css");
 @import url("grid.css");
 
+body {
+    position: relative;
+    background-color: #E0E0E0;
+}
 
 .topo {
+    width: 100%;
     height: 64px;
-    box-shadow: 0px 6px 34px -19px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 34px -19px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
 }
 
 .notification {
@@ -27,7 +36,7 @@
     justify-content: center;
     position: relative;
 
-    /* overflow: hidden; */
+    overflow: hidden;
 
     width: 48px;
     height: 48px;
@@ -38,19 +47,31 @@
     margin: 0 5px;
 }
 
-.photo > img {
+.photo>img {
     width: 60px;
     height: 60px;
+    border-radius: 4px;
+}
+
+.photo-min {
+    margin: 0 10px 0 0;
+}
+
+.photo-min>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
 }
 
 .logo {
     padding: 0 0 0 50px;
     display: flex;
     align-items: center;
+
 }
 
 
-.pesquisa > * > .btn {
+.pesquisa>*>.btn {
     background-color: #949494;
 }
 
@@ -74,4 +95,378 @@
 .botoes {
     display: flex;
     align-items: center;
+}
+
+.usuario {
+    grid-column: span 4;
+    margin: 24px 0 0 24px;
+    border-radius: 4px;
+    border: #949494 solid 1px;
+    background-color: white;
+}
+
+.semelhantes {
+    display: flex;
+    grid-column: span 3;
+    flex-direction: column;
+
+    border-radius: 4px;
+
+    margin: 24px 24px 0 0;
+    border: 1px solid #E0E0E0;
+
+}
+
+.all {
+    border-radius: 4px;
+    border: #949494 solid 1px;
+
+    background-color: white;
+    padding: 10px;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+
+    position: relative;
+    background-color: red;
+}
+
+.profile {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    border-radius: 4px;
+    background-color: red;
+    border: 5px solid white;
+}
+
+.information {
+    margin-top: 102px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.information>.name {
+    font-weight: bold;
+}
+
+.information>.description {
+    margin: 20px 60px;
+    color: #949494
+}
+
+.information>.job {
+    margin: 0px 60px;
+}
+
+hr {
+    margin: 0 20px;
+}
+
+.analytics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.analytics>div>* {
+    margin: 0;
+}
+
+.analytics>div>h2 {
+    color: #949494;
+}
+
+.analytics>div {
+    width: 35%;
+    background-color: #F9F9F9;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    margin: 40px;
+}
+
+.tab.active {
+    background-color: #949494;
+}
+
+.tab {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+
+
+}
+
+.parecidos {
+    text-align: center;
+}
+
+.tabs>.img {
+    padding: 0 10px;
+}
+
+.tab2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+
+}
+
+.color {
+    font-family: 'Roboto';
+    color: #949494;
+}
+
+.analytics-follow {
+    background-color: #E0E0E0;
+}
+
+.analytics-follow>img {
+    width: 32px;
+    height: 32px;
+
+}
+
+.foto {
+    margin: 0 10px;
+}
+
+.foto>img {
+    margin: 2px;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+}
+
+.nome {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.more {
+    padding: 16px;
+    border-radius: 4px;
+
+    background-color: #949494;
+}
+
+.em-alta {
+    position: absolute;
+
+    height: 306px;
+    width: 291px;
+    left: 1011px;
+    top: 596px;
+    border-radius: 4px;
+    padding: 16px;
+
+
+
+    border-radius: 4px;
+    background-color: red;
+    border: 5px solid white;
+}
+
+.feed {
+    grid-column: span 5;
+    margin-top: 24px;
+    height: 100vh;
+}
+
+.story {
+    overflow: hidden;
+    overflow-x: scroll;
+    width: 100%;
+    height: 164px;
+
+    border-radius: 4px;
+
+    display: flex;
+
+    padding: 0 0 10px 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+    min-width: 140px;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 4px;
+    border: #949494 solid 1px;
+}
+
+.flex {
+    display: flex;
+}
+
+.describe {
+    margin-top: 20px;
+    border-radius: 4px;
+    border: #949494 solid 1px;
+    background-color: white;
+
+    height: 180px;
+
+    padding: 10px;
+    display: flex;
+}
+
+.writeThink {
+    width: calc(100% - 10px);
+    height: 130px;
+}
+
+.describe>.photo {
+    margin: 0 10px 0 0;
+}
+
+.text {
+    width: 100%;
+}
+
+.center {
+    align-items: center;
+}
+
+.comment {
+    padding: 0 10px;
+    width: calc(100% - 10px);
+    height: 40px;
+}
+
+.w-60 {
+    width: 60px;
+}
+
+.btnPost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 4px;
+    color: white;
+    background-color: #949494;
+}
+
+.btnPost-tansparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 4px;
+    color: #949494;
+}
+
+.btnLarge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #555;
+}
+
+.space-beetween {
+    justify-content: space-between;
+}
+
+.em_alta {
+    border-radius: 4px;
+    border: #949494 solid 1px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #949494;
+}
+
+.post-body {
+    padding: 10px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.fullImage {
+    width: 100%;
+    height: 100%;
+}
+
+.post {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: #949494 solid 1px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 16px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 16px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 16px;
 }
