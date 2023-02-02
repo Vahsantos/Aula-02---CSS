@@ -1,0 +1,26 @@
+@import url('aula14grid.css');
+
+.header {
+    height: 48px;
+    background-color: #00ffff;
+}
+
+.footer {
+    height: 48px;
+    background-color: #9acd32;
+}
+
+.card {
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.purplediv {
+    background-color: #800080;
+    padding: 12px;
+}
+
+.reddiv {
+    background-color: hsl(0, 100%, 27%);
+    padding: 12px;
+}
